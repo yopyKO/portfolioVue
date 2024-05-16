@@ -81,5 +81,6 @@
   .welcomeVue{
     padding-top: 220px;
     margin-bottom: 20px;
+    padding-bottom: 40px;
   }
 </style>

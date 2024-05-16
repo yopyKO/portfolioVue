@@ -43,6 +43,8 @@ import HelloWorld from './components/HelloWorld.vue'
     top: 0px;
     position: fixed;
     z-index: 101;
+    background-color: rgb(0, 3, 2);
+    width: 100%;
   }
   footer {
     display: flex;
@@ -92,7 +94,7 @@ import HelloWorld from './components/HelloWorld.vue'
       display: flex;
       place-items: center;
       padding-right: calc(var(--section-gap) / 2);
-      max-width: 50%;
+      max-width: 100%;
       position: fixed;
     }
 
