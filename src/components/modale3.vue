@@ -44,7 +44,7 @@ export default{
         bottom: 0;
         left: 0;
         right:0 ;
-        z-index: 100;
+        z-index: 102;
 
     }
     .overlay {
@@ -90,5 +90,6 @@ export default{
         align-content: center;
         width: 220px;
         height: 330px;
+        margin-left: 45px;
     }
 </style>
