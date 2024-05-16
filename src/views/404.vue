@@ -18,6 +18,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 220px;
+    margin-bottom: 50px;
   }
 
   .img{

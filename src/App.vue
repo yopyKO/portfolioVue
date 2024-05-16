@@ -42,6 +42,7 @@ import HelloWorld from './components/HelloWorld.vue'
     max-height: 100vh;
     top: 0px;
     position: fixed;
+    z-index: 101;
   }
   footer {
     display: flex;
@@ -51,6 +52,9 @@ import HelloWorld from './components/HelloWorld.vue'
     align-items: center;
     position: fixed;
     bottom: 0PX;
+    background-color: hsla(160, 100%, 37%, 1);
+    width: 100% ;
+    z-index: 101;
   }
   .logo {
     display: block;
