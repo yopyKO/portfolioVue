@@ -97,7 +97,7 @@ import HelloWorld from './components/HelloWorld.vue'
       max-width: 100%;
       position: fixed;
     }
-
+    
     .logo {
       margin: 0 2rem 0 0;
     }
@@ -123,4 +123,10 @@ import HelloWorld from './components/HelloWorld.vue'
     height: 2em;
     width: 2em ;
   }
+  @media (max-width: 1024px) {
+    footer {
+      max-height: 80px;
+      display: flex;
+      flex-wrap: wrap;
+    }}
 </style>
