@@ -123,7 +123,7 @@ import HelloWorld from './components/HelloWorld.vue'
     height: 2em;
     width: 2em ;
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 400px) {
     footer {
       max-height: 80px;
       display: flex;
