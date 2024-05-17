@@ -128,5 +128,7 @@ import HelloWorld from './components/HelloWorld.vue'
       max-height: 80px;
       display: flex;
       flex-wrap: wrap;
+      position: fixed;
+      bottom: 0px;
     }}
 </style>
