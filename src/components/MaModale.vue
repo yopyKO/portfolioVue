@@ -11,7 +11,6 @@ const target = ref(null)
 onClickOutside(target, ()=>emit('modal-close'))
 
 </script>
-
 <template>
   <div v-if="isOpen" class="modal-mask">
     <div class="modal-wrapper">
