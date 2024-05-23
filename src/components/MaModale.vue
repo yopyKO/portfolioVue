@@ -87,4 +87,3 @@ img {
     margin: auto;
     object-fit:cover;
 }
-</style>
