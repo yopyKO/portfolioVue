@@ -1,6 +1,6 @@
 <script setup>
-import MyAchievements from '@/components/MyAchievements.vue'
-import ContactMe from '@/components/ContactMe.vue'
+import MyAchievements from '@/views/MyAchievementsView.vue'
+import ContactMe from '@/views/ContactMeView.vue'
 import Presentation from '@/components/Presentation.vue';
 </script>
 

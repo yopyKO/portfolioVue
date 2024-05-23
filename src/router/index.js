@@ -15,7 +15,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../components/ContactMe.vue')
+      component: () => import('../views/ContactMeView.vue')
     },
     {
       path: '/myAchievements',
@@ -23,7 +23,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('@/components/MyAchievements.vue')
+      component: () => import('@/views/MyAchievementsView.vue')
     },
     {
       path: '/:catchALL(.*)',
